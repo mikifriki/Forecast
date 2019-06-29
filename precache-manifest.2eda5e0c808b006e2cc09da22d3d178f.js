@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "48886c4c3ac2c2fa946f1d2da0f12c90",
+    "revision": "e1c6b7681ec3d0fff3289eb57b4645cc",
     "url": "/Forecast/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Forecast/static/css/2.5d4b01d9.chunk.css"
   },
   {
-    "revision": "31f63363b6ece98c8d50",
+    "revision": "64e1b1eb065780407f07",
     "url": "/Forecast/static/css/main.4a3e7522.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Forecast/static/js/2.4b49f084.chunk.js"
   },
   {
-    "revision": "31f63363b6ece98c8d50",
-    "url": "/Forecast/static/js/main.52ac98eb.chunk.js"
+    "revision": "64e1b1eb065780407f07",
+    "url": "/Forecast/static/js/main.5e36c3df.chunk.js"
   },
   {
     "revision": "f32d3b2de39206c3993d",
