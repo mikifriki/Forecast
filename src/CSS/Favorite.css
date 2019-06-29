@@ -1,7 +1,7 @@
 #FavoriteWindow {
     float: right;
     padding: 3% 2% 10%;
-    height: 95vh;
+    height: 97vh;
     background: rgba(101, 135, 158, 0.7);
     border-color: transparent;
     animation: fadeInLeft 2s;

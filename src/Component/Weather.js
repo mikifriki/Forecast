@@ -24,7 +24,7 @@ export default class Weather extends React.Component {
 			return;
 		}
 		//sets the data to use gps coordinates if allowed
-		this.getData(`http://api.openweathermap.org/data/2.5/forecast?lat=${this.props.lat}&lon=${this.props.lon}&units=metric&APPID=7ff9aafa73fb706223dd209f53908496`);
+		this.getData(`https://api.openweathermap.org/data/2.5/forecast?lat=${this.props.lat}&lon=${this.props.lon}&units=metric&APPID=7ff9aafa73fb706223dd209f53908496`);
 	};
 
 	//this is where the data is fetched from the url and the states are set
@@ -37,7 +37,7 @@ export default class Weather extends React.Component {
 						title: 'Please enter a valid location',
 						showConfirmButton: false,
 						toast: true,
-						position: 'top-end',
+						position: 'top',
 						timer: 1800
 					})
 					return;
@@ -56,7 +56,7 @@ export default class Weather extends React.Component {
 		const city = e.target.elements.city.value;
 		const country = e.target.elements.country.value;
 
-		this.getData(`http://api.openweathermap.org/data/2.5/forecast?q=${city},${country}&units=metric&APPID=7ff9aafa73fb706223dd209f53908496`);
+		this.getData(`https://api.openweathermap.org/data/2.5/forecast?q=${city},${country}&units=metric&APPID=7ff9aafa73fb706223dd209f53908496`);
 	};
 
 	//here the fetch is done if an item from the favorites list is clicked
@@ -67,7 +67,7 @@ export default class Weather extends React.Component {
 			return;
 		}
 		;
-		this.getData(`http://api.openweathermap.org/data/2.5/forecast?q=${location[0]},${location[1]}&units=metric&APPID=7ff9aafa73fb706223dd209f53908496`);
+		this.getData(`https://api.openweathermap.org/data/2.5/forecast?q=${location[0]},${location[1]}&units=metric&APPID=7ff9aafa73fb706223dd209f53908496`);
 	};
 
 	//removes the item from favorite section

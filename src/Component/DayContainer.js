@@ -18,7 +18,7 @@ class DayCard extends React.Component {
 						size='medium'>{moment(newDate).format('dddd')}, {moment(newDate).format('MMMM Do, HH:mm')}</Header>
 					<div className='Humidity' size='small'>Humidity: {this.props.day.main.humidity} %</div>
 					<Header className='Temp' size='small'>{Math.round(this.props.day.main.temp)}°C</Header>
-					<Image className='CardImage' src={`http://openweathermap.org/img/w/${this.props.day.weather[0].icon}.png`}/>
+					<Image className='CardImage' src={`https://openweathermap.org/img/w/${this.props.day.weather[0].icon}.png`}/>
 					<Divider className='No'>{this.props.day.weather[0].description}</Divider>
 				</Divider>
 			</Container>
