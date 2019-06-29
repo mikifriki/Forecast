@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Forecast/static/css/main.4a3e7522.chunk.css",
+    "main.js": "/Forecast/static/js/main.52ac98eb.chunk.js",
+    "main.js.map": "/Forecast/static/js/main.52ac98eb.chunk.js.map",
+    "runtime~main.js": "/Forecast/static/js/runtime~main.bf801d13.js",
+    "runtime~main.js.map": "/Forecast/static/js/runtime~main.bf801d13.js.map",
+    "static/css/2.5d4b01d9.chunk.css": "/Forecast/static/css/2.5d4b01d9.chunk.css",
+    "static/js/2.4b49f084.chunk.js": "/Forecast/static/js/2.4b49f084.chunk.js",
+    "static/js/2.4b49f084.chunk.js.map": "/Forecast/static/js/2.4b49f084.chunk.js.map",
+    "index.html": "/Forecast/index.html",
+    "precache-manifest.f038bfc9c89f158c6ff2593b9a1c320d.js": "/Forecast/precache-manifest.f038bfc9c89f158c6ff2593b9a1c320d.js",
+    "service-worker.js": "/Forecast/service-worker.js",
+    "static/css/2.5d4b01d9.chunk.css.map": "/Forecast/static/css/2.5d4b01d9.chunk.css.map",
+    "static/css/main.4a3e7522.chunk.css.map": "/Forecast/static/css/main.4a3e7522.chunk.css.map",
+    "static/media/semantic.min.css": "/Forecast/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/App.css": "/Forecast/static/media/forest-1840373_1920.b0741444.jpg"
+  }
+}
