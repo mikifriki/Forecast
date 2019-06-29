@@ -1,0 +1,22 @@
+.ui.menu {
+    margin-bottom: 0 !important;
+}
+
+div.ui.small {
+    background: transparent;
+}
+
+div.ui.menu {
+    background: rgba(101, 135, 158, 0.7);
+    border: none;
+    border-radius: 0;
+}
+
+div.ui.small.input {
+    margin: 5px 10px;
+}
+
+button.ui.small.icon.right.labeled.button {
+    padding: 10px;
+    margin: 10px
+}
