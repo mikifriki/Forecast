@@ -1,72 +1,72 @@
 div.ui.divider.one {
-    float: left;
-    font-family: 'Raleway', sans-serif;
-    width: 340px;
-    height: 170px;
-    border-radius: 9px;
-    padding: 25px 30px 170px 25px;
-    margin-right: 30px;
-    margin-bottom: 20px;
-    color: white;
-    animation: fadeInLeft 2s;
-    box-shadow: 0px 31px 35px -26px #080c21;
-    background: linear-gradient(
-            to right,
-            #55cddd 0%,
-            #7dd9e8 25%,
-            #7dd9e8 45%,
-            #72e8d6 75%,
-            #72e8d6 100%
-    );
+	float: left;
+	font-family: 'Raleway', sans-serif;
+	width: 340px;
+	height: 170px;
+	border-radius: 9px;
+	padding: 25px 30px 170px 25px;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	color: white;
+	animation: fadeInLeft 2s;
+	box-shadow: 0px 31px 35px -26px #080c21;
+	background: linear-gradient(
+		to right,
+		#55cddd 0%,
+		#7dd9e8 25%,
+		#7dd9e8 45%,
+		#72e8d6 75%,
+		#72e8d6 100%
+	);
 }
 
 div.ui.large.header,
 div.ui.small.header,
 div.ui.medium.header {
-    color: white;
-    font-family: 'Raleway', sans-serif;
+	color: white;
+	font-family: 'Raleway', sans-serif;
 }
 
 div.ui.small.header.Temp {
-    -webkit-animation-name: fadeIn;
-    animation-name: fadeIn;
-    font-size: 72px;
-    float: right;
-    color: white;
-    font-weight: 100;
-    margin-top: 10px;
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+	font-size: 72px;
+	float: right;
+	color: white;
+	font-weight: 100;
+	margin-top: 10px;
 }
 
 div.ui.small.header.Humidity {
-    padding: 0px;
-    margin: 0px;
-    width: 120px;
-    color: white;
-    font-family: 'Raleway', sans-serif;
+	padding: 0px;
+	margin: 0px;
+	width: 120px;
+	color: white;
+	font-family: 'Raleway', sans-serif;
 }
 
 img.CardImage {
-    float: left;
-    padding-top: 10px;
+	float: left;
+	padding-top: 10px;
 }
 
 /* Removing the default border from the SemanticUi Divider class*/
 .ui.divider.No:not(.vertical):not(.horizontal) {
-    padding-top: 50px;
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    border: none;
+	padding-top: 50px;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	border: none;
 }
 
 div.ui.container.DayCard {
-    font-family: 'Raleway', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }

@@ -1,9 +1,9 @@
 .ui.divider:not(.vertical):not(.horizontal) {
-    border: none;
+	border: none;
 }
 
 div.ui.divider.Map {
-    min-height: 92vh;
-    margin-bottom: 0;
+	min-height: 92vh;
+	margin-bottom: 0;
 }
 

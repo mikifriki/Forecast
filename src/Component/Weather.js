@@ -39,7 +39,7 @@ export default class Weather extends React.Component {
 						toast: true,
 						position: 'top',
 						timer: 1800
-					})
+					});
 					return;
 				}
 				this.setState({
@@ -61,12 +61,9 @@ export default class Weather extends React.Component {
 
 	//here the fetch is done if an item from the favorites list is clicked
 	handleFavorite = (e) => {
-		const location = e.target.text.split(",")
+		const location = e.target.text.split(",");
 
-		if (location.length !== 2) {
-			return;
-		}
-		;
+		if (location.length !== 2) return;
 		this.getData(`https://api.openweathermap.org/data/2.5/forecast?q=${location[0]},${location[1]}&units=metric&APPID=7ff9aafa73fb706223dd209f53908496`);
 	};
 
@@ -80,7 +77,7 @@ export default class Weather extends React.Component {
 	//uses local storage
 	handleClick = (e) => {
 		e.preventDefault();
-		localStorage.setItem(`${this.state.location.name},${this.state.location.country}`, "")
+		localStorage.setItem(`${this.state.location.name},${this.state.location.country}`, "");
 		this.forceUpdate()
 	};
 

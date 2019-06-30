@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from "react";
 import "../CSS/Favorite.css";
 import {Button, Header, Image, List} from 'semantic-ui-react';
@@ -7,7 +8,7 @@ export default class Favorites extends React.Component {
 
 	//Creating a table to be shown in the FavoriteWindow div
 	createTable = () => {
-		let rows = []
+		let rows = [];
 		for (let i = 0; i < localStorage.length; i++) {
 			let favorites = localStorage.key(i);
 			rows.push(
@@ -18,7 +19,7 @@ export default class Favorites extends React.Component {
 			)
 		}
 		return rows;
-	}
+	};
 
 	//Setting up the structure for the favorite window
 	render() {
@@ -32,7 +33,7 @@ export default class Favorites extends React.Component {
 				<List id="FavoriteText">
 					{this.createTable()}
 				</List>
-				<Image className="arrow bounce" src={arrow} size="small" href="#"></Image>
+				<Image className="arrow bounce" src={arrow} size="small" href="#"/>
 			</div>
 		)
 	}
