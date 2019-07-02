@@ -25,7 +25,7 @@ export default class Favorites extends React.Component {
 	render() {
 		if (!this.props.visible) return <></>;
 		return (
-			<div id="FavoriteWindow">
+			<div className="FavoriteWindow">
 				<Header id="FavoriteTitle">
 					Favorites
 				</Header>

@@ -1,4 +1,4 @@
-#FavoriteWindow {
+.FavoriteWindow {
 	float: right;
 	padding: 3% 2% 10%;
 	height: 97vh;
@@ -81,3 +81,70 @@ a.ui.small.image.arrow.bounce {
 		opacity: 1;
 	}
 }
+
+
+@media all and (max-width: 730px) {
+
+	.FavoriteWindow {
+		float: none;
+		position:static;
+		height: 65vh;
+		padding-bottom: 0px;
+	}
+
+	a.ui.small.image.arrow.bounce {
+		text-align: center;
+		float: right;
+		display: none;
+	}
+
+}
+@media all and (max-width: 959px) {
+	.FavoriteWindow {
+		float: right;
+		width: 300px;
+		height: 100vh;
+		padding-bottom: 0px;
+	}
+	button.ui.negative.button {
+		display: block;
+		float: right;
+	}
+
+	a.ui.small.image.arrow.bounce {
+		text-align: center;
+		float: right;
+		display: none;
+	}
+
+}
+
+
+@media all and (max-width: 479px) {
+
+	.FavoriteWindow {
+		display: block;
+		width: 100%;
+		text-align: center;
+		float: none;
+	}
+}
+
+
+@media all and (max-width: 666px) {
+
+	.FavoriteWindow {
+		float: right;
+		position:static;
+		height: 65vh;
+		padding-left: 0px;
+		padding-right: 0px;
+		font-size: 12px;
+	}
+
+	a.ui.small.image.arrow.bounce {
+		display: none;
+	}
+
+}
+

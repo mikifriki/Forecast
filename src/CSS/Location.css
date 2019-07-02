@@ -17,3 +17,50 @@ button.ui.positive.button {
 	margin-top: 0px;
 	margin-bottom: 25px;
 }
+
+@media all and (max-width: 959px) {
+
+	.ui.container {
+		float: left;
+		width: 400px;
+		margin-left: 0px !important;
+		margin-right: 0px !important;
+	}
+	button.ui.positive.button{
+
+	display: block;
+		margin:0
+	}
+}
+
+@media all and (max-width: 730px) {
+
+	.ui.container {
+		float: left;
+		width: 500px;
+		margin-left: 0px !important;
+		margin-right: 0px !important;
+	}
+	button.ui.positive.button{
+
+		display: block;
+		margin:0
+	}
+
+}
+
+@media all and (max-width: 666px) {
+
+	.ui.container {
+		float: left;
+		background: green;
+		margin-left: 0px !important;
+		margin-right: 0px !important;
+	}
+	button.ui.positive.button{
+
+		display: block;
+		margin:0
+	}
+
+}
