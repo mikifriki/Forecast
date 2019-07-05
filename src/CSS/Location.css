@@ -57,9 +57,11 @@ button.ui.positive.button {
 		margin-right: 0px !important;
 	}
 	button.ui.positive.button{
-
 		display: block;
-		margin:0
+		margin: 0
 	}
 
+	div.test{
+		word-wrap: break-word;
+	}
 }

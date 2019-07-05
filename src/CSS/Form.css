@@ -32,7 +32,9 @@ button.ui.small.icon.right.labeled.button {
 		margin: 5px;
 		padding-top: 5px;
 	}
-
+	div.ui.customMenu.menu{
+		margin-bottom: 0 !important;
+	}
 }
 
 @media all and (max-width: 752px) {

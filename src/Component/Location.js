@@ -13,8 +13,10 @@ const Location = props => {
 	return (
 		<Container className='TopM'>
 			<Header className='CityCountry' size='huge'>
-				{props.location.name},
-				{props.location.country}
+				<div className="test">
+					{props.location.name},
+					{props.location.country}
+				</div>
 				<Button positive size='mini' animated onClick={props.onClick}>
 					<Button.Content visible>
 						Save to favorites
