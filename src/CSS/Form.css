@@ -20,3 +20,22 @@ button.ui.small.icon.right.labeled.button {
 	padding: 10px;
 	margin: 10px
 }
+
+
+@media all and (max-width: 479px) {
+
+	button.ui.small.icon.right.labeled.button {
+		float: right;
+
+	}
+	div.ui.small.input {
+		margin: 5px;
+		padding-top: 5px;
+	}
+
+}
+
+@media all and (max-width: 752px) {
+
+
+}

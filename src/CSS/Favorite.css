@@ -106,6 +106,7 @@ a.ui.small.image.arrow.bounce {
 		height: 100vh;
 		padding-bottom: 0px;
 	}
+
 	button.ui.negative.button {
 		display: block;
 		float: right;
@@ -116,8 +117,8 @@ a.ui.small.image.arrow.bounce {
 		float: right;
 		display: none;
 	}
-
 }
+
 
 
 @media all and (max-width: 479px) {
@@ -126,25 +127,16 @@ a.ui.small.image.arrow.bounce {
 		display: block;
 		width: 100%;
 		text-align: center;
-		float: none;
-	}
-}
-
-
-@media all and (max-width: 666px) {
-
-	.FavoriteWindow {
 		float: right;
 		position:static;
-		height: 65vh;
-		padding-left: 0px;
-		padding-right: 0px;
+		height: auto;
 		font-size: 12px;
+		padding-top:10px;
+		margin-top: 0px;
 	}
 
 	a.ui.small.image.arrow.bounce {
 		display: none;
 	}
-
 }
 

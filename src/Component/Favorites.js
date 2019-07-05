@@ -25,6 +25,7 @@ export default class Favorites extends React.Component {
 	render() {
 		if (!this.props.visible) return <></>;
 		return (
+			<div>
 			<div className="FavoriteWindow">
 				<Header id="FavoriteTitle">
 					Favorites
@@ -34,6 +35,7 @@ export default class Favorites extends React.Component {
 					{this.createTable()}
 				</List>
 				<Image className="arrow bounce" src={arrow} size="small" href="#"/>
+			</div>
 			</div>
 		)
 	}
