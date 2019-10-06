@@ -1,5 +1,5 @@
 .main {
 	background-size: cover;
-	background: #324851 url("./Image/forest-1840373_1920.jpg") no-repeat center center;
+	background: #324851 url("./Image/forest-1840373_1920.jpg") no-repeat;
 	min-height: 100vh;
 }
