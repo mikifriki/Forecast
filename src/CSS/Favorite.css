@@ -49,6 +49,7 @@ a:hover {
 button.ui.negative.button {
 	padding: 5px 30px;
 	margin-left: 10px;
+	margin-top: 7px;
 	float: right;
 }
 
