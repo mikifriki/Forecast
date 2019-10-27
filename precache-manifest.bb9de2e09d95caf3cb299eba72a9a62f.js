@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f69b80091a64d8693ae3a3b877dd0302",
+    "revision": "714897de54221872b0a6c293f8366131",
     "url": "/Forecast/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Forecast/static/css/2.5d4b01d9.chunk.css"
   },
   {
-    "revision": "fe6908fa6a26a6ee8bde",
-    "url": "/Forecast/static/css/main.9137f17a.chunk.css"
+    "revision": "95a1840a6c190493285a",
+    "url": "/Forecast/static/css/main.c4966cd7.chunk.css"
   },
   {
     "revision": "e32692dea5d2703cdc75",
     "url": "/Forecast/static/js/2.4b49f084.chunk.js"
   },
   {
-    "revision": "fe6908fa6a26a6ee8bde",
+    "revision": "95a1840a6c190493285a",
     "url": "/Forecast/static/js/main.bffcd22b.chunk.js"
   },
   {
@@ -44,12 +44,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Forecast/static/media/brand-icons.e8c322de.woff2"
   },
   {
-    "revision": "9c74e172f87984c48ddf5c8108cabe67",
-    "url": "/Forecast/static/media/flags.9c74e172.png"
+    "revision": "2569bb7e7fba4ee63af4466b7b04c32e",
+    "url": "/Forecast/static/media/desert_road_3-wallpaper-2560x1440.2569bb7e.jpg"
   },
   {
-    "revision": "b074144480963b7558830824aaf26e2e",
-    "url": "/Forecast/static/media/forest-1840373_1920.b0741444.jpg"
+    "revision": "9c74e172f87984c48ddf5c8108cabe67",
+    "url": "/Forecast/static/media/flags.9c74e172.png"
   },
   {
     "revision": "0ab54153eeeca0ce03978cc463b257f7",
