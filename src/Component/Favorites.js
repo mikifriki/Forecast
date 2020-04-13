@@ -4,8 +4,6 @@ import {Button, Header, Image, List} from 'semantic-ui-react';
 import arrow from "../Image/arrows.png"
 
 const Favorites = ({onFavorite, onRemoveFavorite, visible}) => {
-	console.log(onFavorite, "Favorites");
-
 	const createTable = () => {
 		let rows = [];
 		for (let i = 0; i < localStorage.length; i++) {

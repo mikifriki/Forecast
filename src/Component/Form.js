@@ -12,4 +12,5 @@ const LocationForm = props => (
 		</Form>
 	</Menu>
 );
+
 export default LocationForm;

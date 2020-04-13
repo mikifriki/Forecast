@@ -7,19 +7,14 @@
       <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CSS/DayContainer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSS/DayCard.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Favorites.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Favorites.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Location.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Location.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Weather.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Weather.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Favorites</find>
-      <find>center</find>
-      <find>console.log</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -90,7 +85,7 @@
       <workItem from="1562338959810" duration="3431000" />
       <workItem from="1570372009089" duration="1469000" />
       <workItem from="1572176917878" duration="945000" />
-      <workItem from="1586786826990" duration="3778000" />
+      <workItem from="1586786826990" duration="11019000" />
     </task>
     <task id="LOCAL-00001" summary="Add editorconfig support">
       <created>1561913625659</created>
@@ -134,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586790217755</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Made Favorites into a functional component">
+      <created>1586790638561</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586790638561</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,20 +178,25 @@
     <MESSAGE value="Cleanup" />
     <MESSAGE value="fixed background scaling" />
     <MESSAGE value="Made Daycard into functional component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made Daycard into functional component" />
+    <MESSAGE value="Made Favorites into a functional component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made Favorites into a functional component" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="864" y="174" width="1426" height="986" key="CommitChangelistDialog2" timestamp="1586790217133">
+    <state x="864" y="174" width="1426" height="986" key="CommitChangelistDialog2" timestamp="1586791393974">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="864" y="174" width="1426" height="986" key="CommitChangelistDialog2/0.0.2560.1410/2560.763.1920.1050/-1920.762.1920.1050@0.0.2560.1410" timestamp="1586790217133" />
+    <state x="864" y="174" width="1426" height="986" key="CommitChangelistDialog2/0.0.2560.1410/2560.763.1920.1050/-1920.762.1920.1050@0.0.2560.1410" timestamp="1586791393974" />
     <state x="833" y="396" key="Vcs.Push.Dialog.v2" timestamp="1586790223366">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="833" y="396" key="Vcs.Push.Dialog.v2/0.0.2560.1410/2560.763.1920.1050/-1920.762.1920.1050@0.0.2560.1410" timestamp="1586790223366" />
+    <state x="897" y="316" key="run.anything.popup" timestamp="1586795327492">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="897" y="316" key="run.anything.popup/0.0.2560.1410/2560.763.1920.1050/-1920.762.1920.1050@0.0.2560.1410" timestamp="1586795327492" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
