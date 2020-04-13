@@ -1,5 +1,5 @@
 import React from "react";
-import DayCard from "./DayContainer";
+import DayCard from "./DayCard";
 
 
 const WeekReport = props => {
